@@ -25,6 +25,7 @@ SkinThickness = st.number_input("SkinThickness", min_value=0, max_value=99, valu
 Insulin = st.number_input("Insulin", min_value=0, max_value=846, value=0)
 BMI = st.number_input("BMI", min_value=0.0, max_value=67.0, value=0.0, step=0.1)
 DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction", min_value=0, max_value=2, value=0)
+Age = st.number_input("Age", min_value=1, max_value=100, value=1)
 
 # Map the gender and embarked values to numeric
 #gender_map = {'male': 0, 'female': 1}
