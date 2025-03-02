@@ -18,8 +18,8 @@ def predict_survival(d):
 st.title("Diabetes Prediction")
 
 # Input fields for each parameter
-Pregnancies = st.number("Pregnancies",  min_value=0.0, max_value=17.0, value=0.0, step=0.1)
-Glucose = st.number("Glucose", min_value=0.0, max_value=199.0, value=.0, step=0.1)
+Pregnancies = st.number_input("Pregnancies",  min_value=0.0, max_value=17.0, value=0.0, step=0.1)
+Glucose = st.number_input("Glucose", min_value=0.0, max_value=199.0, value=.0, step=0.1)
 BloodPressure = st.number_input("BloosPressure", min_value=0.0, max_value=122.0, value=0.0, step=0.1)
 SkinThickness = st.number_input("SkinThickness", min_value=0, max_value=99, value=0)
 Insulin = st.number_input("Insulin", min_value=0, max_value=846, value=0)
